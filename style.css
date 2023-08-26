@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainDiv {
+  background-image: url(./images/1.jpg);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.blueColor {
+  /* background-color: rgba(34, 6, 248, 0.986); */
+  width: 100%;
+  height: 70vh;
+  opacity: 0.4;
+  /* padding-top: 90px; */
+}
+nav {
+  /* margin-top: 40px; */
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  float: left;
+  position: absolute;
+  top: 30px;
+  color: white;
+}
+.logo {
+  margin-left: 30px;
+  font-size: 40px;
+  padding: 3px 0px 5px 0px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.items {
+  display: inline-block;
+}
+ul {
+  float: right;
+  position: relative;
+  left: 500px;
+}
+ul li {
+  display: inline-block;
+  margin: auto 20px;
+  padding: 3px 0px 3px 0px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  display: inline-block;
+  margin: auto 10px;
+  padding: 3px 0px 3px 0px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.heading {
+  position: absolute;
+  top: 35%;
+  margin-left: 35%;
+  margin-right: 40%;
+  color: aliceblue;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #00d2ff; }
+  50% { color: #3a47d5;}
+  100% { color: #00d2ff; }
+}
+.para {
+  position: absolute;
+  top: 45%;
+  margin-left: 38%;
+  margin-right: 35%;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+/* ____________________________________________________ending________________________________________________________________ */
+.box {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 100px 200px -20px,
+    rgba(0, 0, 0, 0.3) 0px 70px 60px -30px;
+}
+.red {
+  height: 170px;
+  width: 80%;
+  padding: 30px 30px;
+  display: inline-block;
+  border: none;
+}
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 60px;
+}
+.p2 {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  line-height: 20px;
+}
+.blue {
+  display: inline-block;
+  width: 15%;
+  height: 110px;
+  padding: auto;
+  border: none;
+}
+.blue img {
+  /* width: 100px; */
+  height: 80px;
+}
+.bigbox {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 94%;
+  padding: 40px;
+}
+.tt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.bigbox p {
+  text-align: center;
+  font: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.distribution1,
+.distribution2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 130px;
+  margin-top: 30px;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 32%;
+  height: 100%;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {border-color: #3a47d5;}
+}
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img,
+.box5 img,
+.box6 img {
+  width: 80px;
+  height: 80px;
+  padding: 30px 0px;
+}
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p,
+.box5 p,
+.box6 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 30px 0;
+}
+
+b {
+  text-align: center;
+  margin-left: 30%;
+}
+.box1 p:hover {
+  background-color: #1cb5e0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.box2 p:hover {
+  background-color: #1cb5e0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.box3 p:hover {
+  background-color: #1cb5e0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.box4 p:hover {
+  background-color: #1cb5e0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.box5 p:hover {
+  background-color: #1cb5e0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.box6 p:hover {
+  background-color: #1cb5e0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+ul li a:hover {
+ color: #00d2ff;
+ transform: scale(1.25, 1.25);
+}
+.logo:hover{
+  color: #00d2ff;
+ transform: scale(1.05, 1.05);
+ cursor: pointer;
+}
